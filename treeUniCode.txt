@@ -1,0 +1,62 @@
+Structure du dossier
+
+C:.
+├── .gitignore
+├── .gitlab-ci.yml
+├── dir.txt
+├── package-lock.json
+├── package.json
+├── README.md
+├── run.bat
+├── tree.txt
+│
+├── newman
+│
+├── postmanCollections
+│   ├── rawCollections
+│   │   └── test_keep.json
+│   │
+│   └── readyCollections
+│       └── test_keep.json
+│
+├── src
+│   ├── Data
+│   │   ├── Clean
+│   │   │   └── Clean.js
+│   │   │
+│   │   ├── CsvFiles
+│   │   │   └── test.csv
+│   │   │
+│   │   └── Retriever
+│   │       └── Retriever.js
+│   │
+│   ├── newman
+│   │   ├── Reporter
+│   │   │   └── Reporter.js
+│   │   │
+│   │   └── Runner
+│   │       ├── NewmanRunner.js
+│   │       └── Run.js
+│   │
+│   ├── swaggerToPostman
+│   │   ├── addAssertion
+│   │   │   ├── addAssertion.js
+│   │   │   └── Generate.js
+│   │   │
+│   │   ├── convertCollection
+│   │   │   ├── convert.js
+│   │   │   └── Converter.js
+│   │   │
+│   │   ├── Downloader
+│   │   │   ├── Download.js
+│   │   │   └── Downloader.js
+│   │   │
+│   │   └── processCollection
+│   │       ├── Processor.js
+│   │       └── RunProcessor.js
+│   │
+│   └── Utils
+│       └── FileProcessor.js
+│
+└── swaggerFiles
+    └── admin.yaml
